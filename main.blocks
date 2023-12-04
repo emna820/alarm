@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="L6-/ubhbu1bFBWtIZ|bQ">accéléromètre</variable></variables><block type="device_gesture_event" id="pzc4B@_-3sm9Bd|_ZYGX" x="319" y="-26"><field name="NAME">Gesture.LogoDown</field><statement name="HANDLER"><block type="device_show_leds" id="a62k]Cn~uMG^4KeZ;WRC"><field name="LEDS">`
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # #
+        `</field><next><block type="music_playable_play" id="vEB^:RpHaD}{abohZ`8K"><field name="playbackMode">music.PlaybackMode.UntilDone</field><value name="toPlay"><shadow type="soundExpression_builtinPlayableSoundEffect" id="SaH_?^4+h_Ec=m9`d1DZ"><field name="soundExpression">soundExpression.sad</field></shadow></value></block></next></block></statement></block><block type="pxt-on-start" id=":m_/7k1ju[!~V*p*:fNk" x="0" y="0"><statement name="HANDLER"><block type="device_print_message" id="YAi927u![LxV_E|DE.[("><value name="text"><shadow type="text" id="be4*D]sOgUmZTN2k|6S^"><field name="TEXT">Hello!</field></shadow></value><next><block type="controls_repeat_ext" id="*gS`Rk71uJTKQIUt]M*}"><value name="TIMES"><shadow type="math_whole_number" id=";_YpO9+CHLeD]eMCXMxk"><field name="NUM">3</field></shadow></value><statement name="DO"><block type="basic_show_icon" id="~3D?tvF`*-G7dq,](MEi"><field name="i">IconNames.Happy</field><next><block type="device_show_leds" id="-u94.9]?|PA*4q*X4(iQ"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field></block></next></block></statement></block></next></block></statement></block><block type="device_gesture_event" id="HA@}-FD,TiOQwh%OlRN#" x="371" y="395"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="variables_set" id="V/*C9cyMQV3Ya=SdD@zT"><field name="VAR" id="L6-/ubhbu1bFBWtIZ|bQ">accéléromètre</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="deviceisgesture" id="4t+oe$FAcV#Ym9B^Pt9`"><field name="gesture">Gesture.Shake</field></block></value><next><block type="basic_show_icon" id="UM@r[1|$de=je7Jw](XE"><field name="i">IconNames.Angry</field><next><block type="music_playable_play" id="eQlK)x=n!]J/PV.-uR1g"><field name="playbackMode">music.PlaybackMode.UntilDone</field><value name="toPlay"><shadow type="soundExpression_builtinPlayableSoundEffect" id="P9VCCJs{16lsQ18N$a}T"><field name="soundExpression">soundExpression.happy</field></shadow></value><next><block type="device_clear_display" id="Qq5eNIsH`5%#C9yq]BGg"></block></next></block></next></block></next></block></statement></block></xml>
